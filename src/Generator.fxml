@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="171.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeneratorController">
+   <children>
+      <Button fx:id="generateBtn" layoutX="404.0" layoutY="124.0" mnemonicParsing="false" onAction="#generate" text="Generate" />
+      <TextArea fx:id="textBox" layoutX="69.0" layoutY="116.0" prefHeight="47.0" prefWidth="221.0" />
+      <Text layoutX="92.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generated Number :" />
+      <Text layoutX="16.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generator by Sabir Mohammedi Taieb">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
